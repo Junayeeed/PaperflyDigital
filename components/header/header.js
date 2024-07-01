@@ -38,7 +38,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={cn("container", styles.container)}>
         <Link href="/" className={cn("label-large", styles.logo)}>
-          Timeless.
+          Paperfly Digital.
         </Link>
 
         <nav
