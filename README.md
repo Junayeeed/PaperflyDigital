@@ -19,8 +19,8 @@ Our team of experts works closely with clients to deliver customized solutions t
 This project uses the following technologies:
 
 - **Framework:** Next.js
-- **Frontend:** React, HTML5, CSS3, JavaScript
-- **Styling:** SASS, Bootstrap (or any other CSS framework used)
+- **Frontend:** React, JavaScript
+- **Styling:** CSS3
 - **Version Control:** Git
 
 ## License
