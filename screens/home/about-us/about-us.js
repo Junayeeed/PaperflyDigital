@@ -13,7 +13,7 @@ export default function AboutUs() {
       <div className={cn("container")}>
         <div className={styles.content}>
           <ScrollAnimatedText size="heading-3">
-            Timeless. ventures through the digital wilderness, guiding your
+            Paperfly. ventures through the digital wilderness, guiding your
             brand to flourish in the vast online ecosystem.
           </ScrollAnimatedText>
           <Link href="/about">
