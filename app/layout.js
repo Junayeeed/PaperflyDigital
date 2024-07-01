@@ -12,9 +12,9 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata = {
-  title: "Paperfly Digital - ",
+  title: "Paperfly Digital - Navigating the digital frontier",
   description:
-    "Timeless is a creative agency template that is beautifully designed and developed using the latest technology.",
+    "Paperfly Digital is a full-service digital agency dedicated to helping businesses succeed online. We specialize in web development, digital marketing, branding, SEO, and social media management to empower your brand in the digital landscape.",
 };
 
 export default function RootLayout({ children }) {
