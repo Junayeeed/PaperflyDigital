@@ -10,31 +10,25 @@ import TextMarquee from "@/components/text-marquee";
 const socials = [
   {
     name: "Instagram",
-    url: "https://www.instagram.com/",
+    url: "https://www.instagram.com/paperflydigital/",
     icon: icons.Instagram,
   },
   {
     name: "Twitter",
-    url: "https://twitter.com/",
+    url: "https://x.com/paperflydigital",
     icon: icons.Twitter,
   },
   {
     name: "Linkedin",
-    url: "https://linkedin.com/",
+    url: "https://www.linkedin.com/company/paperflydigital",
     icon: icons.Linkedin,
-  },
-
-  {
-    name: "Dribbble",
-    url: "https://dribbble.com/",
-    icon: icons.Dribbble,
   },
 ];
 
 export default function Hero() {
   return (
     <section className={cn("section")}>
-      <TextMarquee>Timeless.</TextMarquee>
+      <TextMarquee>Paperfly Digital.</TextMarquee>
 
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>

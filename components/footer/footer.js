@@ -29,9 +29,9 @@ const links = [
 ];
 
 const guides = [
-  { id: 1, title: "Style guide", url: "/" },
-  { id: 2, title: "Licenses", url: "/" },
-  { id: 3, title: "Changelog", url: "/" },
+  { id: 1, title: "Privacy Policy", url: "/" },
+  { id: 2, title: "Payment Policy", url: "/" },
+  { id: 3, title: "Services", url: "/services" },
 ];
 
 export default function Footer() {
@@ -83,7 +83,7 @@ export default function Footer() {
       <div className={styles.bottom}>
         <div className={cn("container", styles.copyright)}>
           <div className={cn("label-small", styles.copy)}>
-            © {currentYear} Timeless - All Rights Reserved.
+            Copyright © {currentYear} Paperfly Digital. All Rights Reserved.
           </div>
 
           <div className={styles.guides}>
