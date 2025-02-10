@@ -9,6 +9,11 @@ import TextMarquee from "@/components/text-marquee";
 
 const socials = [
   {
+    name: "Linkedin",
+    url: "https://www.linkedin.com/company/paperflydigital",
+    icon: icons.Linkedin,
+  },
+  {
     name: "Instagram",
     url: "https://www.instagram.com/paperflydigital/",
     icon: icons.Instagram,
@@ -17,11 +22,6 @@ const socials = [
     name: "Twitter",
     url: "https://x.com/paperflydigital",
     icon: icons.Twitter,
-  },
-  {
-    name: "Linkedin",
-    url: "https://www.linkedin.com/company/paperflydigital",
-    icon: icons.Linkedin,
   },
 ];
 
@@ -46,9 +46,8 @@ export default function Hero() {
 
           <div className={styles.socials}>
             {socials.map((social, index) => (
-              <Magnetic>
+              <Magnetic key={index}>
                 <a
-                  key={index}
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"

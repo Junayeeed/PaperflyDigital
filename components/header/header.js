@@ -6,6 +6,7 @@ import styles from "./header.module.css";
 import Burger from "../burger";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 
 const links = [
   {
@@ -38,7 +39,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={cn("container", styles.container)}>
         <Link href="/" className={cn("label-large", styles.logo)}>
-          Paperfly Digital.
+        <Image src="/paperflydigital.svg" alt="Paperfly Digital Logo" className={styles.logoImage} width={120} height={100} />
         </Link>
 
         <nav
