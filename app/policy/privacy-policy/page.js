@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
       <h1>Privacy Policy</h1>
       <p>Last updated: June 2024</p>
       <p>
-        Paperfly Digital ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
+        Paperfly Digital (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
       </p>
       <h2>Information We Collect</h2>
       <ul>
@@ -41,7 +41,7 @@ export default function PrivacyPolicy() {
       <p>
         Our website may contain links to third-party sites. We are not responsible for the privacy practices or content of those sites.
       </p>
-      <h2>Children's Privacy</h2>
+      <h2>Children&apos;s Privacy</h2>
       <p>
         Our website is not intended for children under 13. We do not knowingly collect personal information from children under 13.
       </p>
