@@ -8,7 +8,6 @@ import { getSortedPosts } from "@/lib/posts";
 export default function News() {
   const posts = getSortedPosts();
 
-  console.log(posts);
 
   return (
     <section className={cn("section")}>
